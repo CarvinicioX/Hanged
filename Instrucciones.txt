@@ -1,0 +1,7 @@
+Ingresar al directorio del proyecto desde la terminal
+Ingresar "g++ main.cpp Hanged.h Hanged.cpp -o Hanged.out" (Sin las comillas)
+Cuando haya terminado de compilar escribir "./Hanged.out" (Sin las comillas)
+Se ingresa un nombre
+Y se empieza a tratar de adivinar la palabra
+Dependiendo del largo de la palabra se podra predecir la cantidad de intentos
+Si se adivina la palabra (o no) se le preguntara si desea volver a intentarlo, solo que con una palabra distinta.
