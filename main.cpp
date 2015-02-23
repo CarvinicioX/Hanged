@@ -47,7 +47,7 @@ int main(int argc, char* argv[]){
 		if (Ahorcado.Gano() || adivinoDeUnSolo) {
 			cout << "Eres un ganador!!" << endl;
 		} else {
-			cout << "Perdedor!!" << endl;
+			cout << "Perdedor!!\nLa Palabra era \"" << word << "\"" << endl;
 		}
 		char Resp;
 		cout << "Desea Continuar? [s/n]" << endl;
