@@ -39,8 +39,7 @@ int main(int argc, char* argv[]){
 				adivinoDeUnSolo = Ahorcado.Guess(cadena);
 			}
 			if (adivinoDeUnSolo) {
-				cout << "Eres un Ganador en "
-				<< NumerodeIntento + 1 << " intentos " << endl;
+				cout << "Eres un Ganador en " << NumerodeIntento + 1 << " intentos " << endl;
 				break;
 			}
 		}
